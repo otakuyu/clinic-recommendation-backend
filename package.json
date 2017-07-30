@@ -1,0 +1,21 @@
+{
+  "name": "govhack-clinics",
+  "description": "Clinics for GovHack",
+  "version": "0.0.1",
+  "author": "Alex Yu",
+  "engines": {
+    "node": ">=4.3"
+  },
+  "main": "config.js",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.0.1",
+    "aws-mqtt-client": "0.0.5",
+    "aws-sdk": "^2.92.0",
+    "fast-csv": "^2.4.0",
+    "mongodb": "^2.2.30",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.10.2"
+  }
+}
